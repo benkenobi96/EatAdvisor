@@ -1,0 +1,13 @@
+H:\IT modell\grafikus felület\grafikus felület\bin\Debug\grafikus felület.exe.config
+H:\IT modell\grafikus felület\grafikus felület\bin\Debug\grafikus felület.exe
+H:\IT modell\grafikus felület\grafikus felület\bin\Debug\grafikus felület.pdb
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus felület.csprojResolveAssemblyReference.cache
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus_felület.Properties.Resources.resources
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus felület.csproj.GenerateResource.Cache
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus felület.exe
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus felület.pdb
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus_felület.FoAblak.resources
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus_felület.Bejelentkezes.resources
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus_felület.Regisztracio.resources
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus_felület.Ertekelo.resources
+H:\IT modell\grafikus felület\grafikus felület\obj\Debug\grafikus_felület.Etterem.resources

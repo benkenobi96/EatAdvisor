@@ -1,0 +1,14 @@
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\bin\Debug\grafikus felület.exe.config
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\bin\Debug\grafikus felület.exe
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\bin\Debug\grafikus felület.pdb
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\EatAdvisor.csprojAssemblyReference.cache
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\grafikus_felület.Properties.Resources.resources
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\EatAdvisor.csproj.GenerateResource.cache
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\EatAdvisor.csproj.CoreCompileInputs.cache
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\grafikus felület.exe
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\grafikus felület.pdb
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\EatAdvisor.Ertekelo.resources
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\EatAdvisor.Etterem.resources
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\EatAdvisor.FoAblak.resources
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\EatAdvisor.Bejelentkezes.resources
+C:\Users\bence\OneDrive\Asztali gép\c# project\grafikus felület\grafikus felület\grafikus felület\obj\Debug\EatAdvisor.Regisztracio.resources

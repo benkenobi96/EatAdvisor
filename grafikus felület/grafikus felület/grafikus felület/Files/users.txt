@@ -1,0 +1,3 @@
+﻿user;12345;User;default@email.com
+benkenobi;12345;Bence Kreidli;bence.kenobi@gmail.com
+benkenobi96;12345;Kreidli Bence;bence@gmail.com

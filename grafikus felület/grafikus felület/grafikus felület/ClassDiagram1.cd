@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="EatAdvisor.Class_models.Rating">
+    <Position X="1.5" Y="10.5" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="10.2" />
+        <Point X="5.25" Y="11.28" />
+        <Point X="3.742" Y="11.28" />
+        <Point X="3.742" Y="12.125" />
+        <Point X="3" Y="12.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgAAAAMAAEAAAABACgAAAAoBAAAAQQAAAUAAAAAAAAA=</HashCode>
+      <FileName>Class models\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatAdvisor.Class_models.Restaurant">
+    <Position X="4.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAQQAAAIEAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Class models\Restaurant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatAdvisor.Class_models.User">
+    <Position X="1.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgCAAAAAwAAAAEgAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Class models\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatAdvisor.DB.Controller">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <AssociationLine Name="User" Type="EatAdvisor.Class_models.User" ManuallyRouted="true">
+      <Path>
+        <Point X="4.875" Y="5.873" />
+        <Point X="4.875" Y="6.817" />
+        <Point X="3.767" Y="6.817" Type="JumpStart" />
+        <Point X="3.6" Y="6.817" Type="JumpEnd" />
+        <Point X="3" Y="6.817" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAQBAAAAIAEAAIAABAAGCAAAAAAAQBAAgABQgAAGQgA=</HashCode>
+      <FileName>DB\Controller.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="data" />
+      <Property Name="Restaurant" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EatAdvisor.DB.DataLoader">
+    <Position X="1.5" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="System.Object" ManuallyRouted="true">
+      <Path>
+        <Point X="5.25" Y="7.75" />
+        <Point X="5.25" Y="7.385" />
+        <Point X="3.683" Y="7.385" />
+        <Point X="3.683" Y="5.87" />
+        <Point X="2.25" Y="5.87" />
+        <Point X="2.25" Y="4.911" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="Ratings" Type="System.Collections.Generic.List&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.25" Y="1.5" />
+        <Point X="2.25" Y="1.125" />
+        <Point X="10.625" Y="1.125" />
+        <Point X="10.625" Y="3.5" />
+        <Point X="10.25" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Restaurants" Type="System.Collections.Generic.List&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.656" Y="1.5" />
+        <Point X="2.656" Y="1.06" />
+        <Point X="10.102" Y="1.06" />
+        <Point X="10.102" Y="3" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="Users" Type="System.Collections.Generic.List&lt;T&gt;" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.844" Y="1.5" />
+        <Point X="1.844" Y="1.125" />
+        <Point X="6.625" Y="1.125" />
+        <Point X="6.625" Y="3.5" />
+        <Point X="7" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAEQADAAIAAAAIAAAjACAAAAAAAAABIAAAAAAAAEQAA=</HashCode>
+      <FileName>DB\DataLoader.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ratings" />
+      <Property Name="Restaurants" />
+      <Property Name="Users" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="EatAdvisor.Program">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAQBAAAAAAAAAIAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatAdvisor.Bejelentkezes">
+    <Position X="11.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIEACQACBEAAACAAIACAECAAAAAAAAgIQBAgAA=</HashCode>
+      <FileName>View\Bejelentkezes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatAdvisor.Ertekelo">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAEIhAIACAABBICAACAQAACAEBAAAEAAAAAAQJAsCA=</HashCode>
+      <FileName>View\Ertekelo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatAdvisor.Etterem">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAYxQAACAABBAAQCSAQAATAABAAAACAAAAAAAgAgA=</HashCode>
+      <FileName>View\Etterem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatAdvisor.FoAblak">
+    <Position X="15" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAiAABAAAAACAAAACBUAAAAAAAAAAAABgAAA=</HashCode>
+      <FileName>View\FoAblak.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EatAdvisor.Regisztracio">
+    <Position X="9.5" Y="8.25" Width="1.5" />
+    <InheritanceLine Type="System.Windows.Forms.Form" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="16.75" Y="14.188" />
+        <Point X="10.25" Y="14.188" />
+        <Point X="10.25" Y="13.588" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIEAIEAACAAABAAAACEAIACAACAAABAAAAAAAAAgAA=</HashCode>
+      <FileName>View\Regisztracio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Class Name="System.Windows.Forms.Form.ControlCollection" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Object">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="System.Windows.Forms.ContainerControl">
+    <Position X="19" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Collections.Generic.List&lt;T&gt;" Collapsed="true">
+    <Position X="7" Y="3" Width="3.25" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

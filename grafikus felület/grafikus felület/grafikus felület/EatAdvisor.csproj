@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0F1B48E9-C6AF-439A-8553-C27932F9BCD8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>grafikus_felület</RootNamespace>
+    <AssemblyName>grafikus felület</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class models\Rating.cs" />
+    <Compile Include="Class models\Restaurant.cs" />
+    <Compile Include="Class models\User.cs" />
+    <Compile Include="DB\Controller.cs" />
+    <Compile Include="DB\DataLoader.cs" />
+    <Compile Include="DB\DBPaths.cs" />
+    <Compile Include="View\Ertekelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Ertekelo.Designer.cs">
+      <DependentUpon>Ertekelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Etterem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Etterem.Designer.cs">
+      <DependentUpon>Etterem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\FoAblak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\FoAblak.Designer.cs">
+      <DependentUpon>FoAblak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Bejelentkezes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Bejelentkezes.Designer.cs">
+      <DependentUpon>Bejelentkezes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Regisztracio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Regisztracio.Designer.cs">
+      <DependentUpon>Regisztracio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="View\Ertekelo.resx">
+      <DependentUpon>Ertekelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Etterem.resx">
+      <DependentUpon>Etterem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\FoAblak.resx">
+      <DependentUpon>FoAblak.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Bejelentkezes.resx">
+      <DependentUpon>Bejelentkezes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Regisztracio.resx">
+      <DependentUpon>Regisztracio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
